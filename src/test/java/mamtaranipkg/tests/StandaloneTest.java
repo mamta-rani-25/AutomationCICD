@@ -28,6 +28,7 @@ public class StandaloneTest {
 		LandingPage landingPage = new LandingPage(driver);
 		landingPage.goTo();
 		ProductCatalogue productCatalogue = landingPage.loginApplication("er.mamta25@gmail.com", "Iamqueen@00");
+//new comments added
 		
 		List<WebElement> products = productCatalogue.getProductList();
 		productCatalogue.addProductToCart(productName);
