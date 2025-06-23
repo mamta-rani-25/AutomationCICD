@@ -1,0 +1,18 @@
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="mamtaranipkg.TestComponents.Listeners"/>
+</listeners>
+<test thread-count="5" name="Submit Order Test">
+<classes>
+<class name="mamtaranipkg.tests.SubmitOrderTest"/>
+</classes>
+</test>
+<!--  Test  -->
+<test thread-count="5" name="Error Validations Test">
+<classes>
+<class name="mamtaranipkg.tests.ErrorValidationsTest"/>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->
